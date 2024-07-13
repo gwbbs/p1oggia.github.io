@@ -1,0 +1,444 @@
+@media only screen and (max-width: 350px) {
+  #presentation {
+    font-size: 23px;
+    line-height: 14px;
+  }
+
+  #app {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .code {
+    font-size: 15px;
+  }
+
+  .sorapng {
+    width: 90px;
+    height: 90px;
+  }
+
+  .whoami {
+    position: relative;
+    line-height: 23px;
+    font-size: 16px;
+  }
+
+  .projects {
+    font-size: 16.5px;
+  }
+
+  .project-box {
+    position: relative;
+    top: -10px;
+    height: 160px;
+  }
+
+  #projtitle {
+    font-size: 16px;
+  }
+
+  #desctitle {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 499px) and (max-height: 1000px) {
+  #presentation {
+    font-size: 25px;
+    line-height: 14px;
+  }
+
+  #app {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  .code {
+    font-size: 15.5px;
+  }
+
+  .sorapng {
+    width: 90px;
+    height: 90px;
+  }
+
+  .whoami {
+    position: relative;
+    line-height: 24px;
+    font-size: 16px;
+    
+  }
+  .projects {
+    margin-top: 25px;
+    font-size: 16.5px;
+  }
+  .project-box {
+    position: relative;
+    top: -10px;
+    height: 150px;
+  }
+  #projtitle {
+    font-size: 17px;
+  }
+
+  #desctitle {
+    font-size: 15px;
+  }
+  .button {
+    font-size: 15px;
+    margin-top: 10px;
+
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  #presentation {
+    font-size: 27px;
+    line-height: 14px;
+  }
+
+  #app {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .code {
+    font-size: 16px;
+  }
+
+  .sorapng {
+    width: 100px;
+    height: 100px;
+  }
+
+  .whoami {
+    position: relative;
+    line-height: 24px;
+    font-size: 17px;
+  }
+  .project-box {
+    position: relative;
+    top: -10px;
+    height: 240px;
+  }
+  .projects {
+    font-size: 19px;
+  }
+  #projtitle {
+    font-size: 20px;
+  }
+
+  #desctitle {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #presentation {
+    margin-top: 60px;
+    font-size: 32px;
+    line-height: 16px;
+  }
+
+  #app {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .code {
+    font-size: 20px;
+  }
+
+  .sorapng {
+    width: 128px;
+    height: 128px;
+  }
+  .whoami {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .projects {
+    font-size: 21px;
+  }
+  .project-box {
+    position: relative;
+    top: -10px;
+    height: 280px;
+  }
+  #projtitle {
+    font-size: 22px;
+  }
+
+  #desctitle {
+    font-size: 20px;
+    top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  #presentation {
+    font-size: 35px;
+    line-height: 15px;
+  }
+
+  #app {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .code {
+    font-size: 24px;
+  }
+
+  .sorapng {
+    width: 140px;
+    height: 140px;
+  }
+  .project-box {
+    position: relative;
+    top: -10px;
+    height: 320px;
+  }
+
+  .whoami {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .projects {
+    font-size: 24px;
+  }
+  #projtitle {
+    font-size: 26px;
+  }
+
+  #desctitle {
+    font-size: 24px;
+    top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  #presentation {
+    font-size: 40px;
+    line-height: 15px;
+  }
+
+  #app {
+    padding-right: 25%;
+    padding-left: 25%;
+  }
+
+  .code {
+    font-size: 25px;
+  }
+
+  .sorapng {
+    width: 170px;
+    height: 170px;
+  }
+  .project-box {
+    position: relative;
+    top: -10px;
+    height: 400px;
+  }
+  .project-box img {
+    border-radius: 20px;
+  }
+
+  .whoami {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .projects {
+    font-size: 25px;
+  }
+  #projtitle {
+    font-size: 26px;
+  }
+
+  #desctitle {
+    font-size: 24px;
+    top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+  #house {
+    color: #eee;
+    position: absolute;
+    font-size: 25px;
+    top: 35px;
+  }
+  
+  #presentation {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 16px;
+  }
+
+  #app {
+    padding-right: 35%;
+    padding-left: 35%;
+  }
+
+  .code {
+    font-size: 16px;
+  }
+
+  .sorapng {
+    width: 108px;
+    height: 108px;
+  }
+  .project-box {
+    position: relative;
+    top: -5px;
+    height: 275px;
+  }
+  .project-box img {
+    border-radius: 20px;
+  }
+
+  .whoami {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .projects {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #projtitle {
+    font-size: 20px;
+    top: -15px;
+  }
+
+  #desctitle {
+    font-size: 16px;
+    top: -30px;
+  }
+  .button {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+  #house {
+    color: #eee;
+    position: absolute;
+    font-size: 25px;
+    top: 35px;
+  }
+  
+  #presentation {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 16px;
+  }
+
+  #app {
+    padding-right: 35%;
+    padding-left: 35%;
+  }
+
+  .code {
+    font-size: 16px;
+  }
+
+  .sorapng {
+    width: 108px;
+    height: 108px;
+  }
+  .project-box {
+    position: relative;
+    top: -5px;
+    height: 275px;
+  }
+  .project-box img {
+    border-radius: 20px;
+  }
+
+  .whoami {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .projects {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #projtitle {
+    font-size: 20px;
+    top: -15px;
+  }
+
+  #desctitle {
+    font-size: 16px;
+    top: -30px;
+  }
+  .button {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 1990px) {
+  #house {
+    color: #eee;
+    position: absolute;
+    font-size: 25px;
+    top: 35px;
+  }
+  
+  #presentation {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 16px;
+  }
+
+  #app {
+    padding-right: 35%;
+    padding-left: 35%;
+  }
+
+  .code {
+    font-size: 16px;
+  }
+
+  .sorapng {
+    width: 108px;
+    height: 108px;
+  }
+  .project-box {
+    position: relative;
+    top: -5px;
+    height: 350px;
+  }
+  .project-box img {
+    border-radius: 20px;
+  }
+
+  .whoami {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .projects {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #projtitle {
+    font-size: 20px;
+    top: -15px;
+  }
+
+  #desctitle {
+    font-size: 16px;
+    top: -30px;
+  }
+  .button {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+}

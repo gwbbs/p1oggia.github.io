@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;700&family=Open+Sans:wght@500&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: sans-serif;
+  background-color: #1a1a1a;
+}
+
+a {
+  text-decoration: none;
+  color: #a7c6da;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a7c6da;
+  font-weight: bold;
+}
+
+ul {
+  top: -10px;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#titletext {
+  color: #7b7b7b;
+  font-family: "Comfortaa", sans-serif;
+}
+
+#standtext {
+  color: #eee;
+  font-family: "Inter", sans-serif
+}
+
+.code {
+  position: relative;
+  top: -5px;
+}
+
+.sorapng {
+  position: relative;
+}
+
+#app {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#presentation {
+  position: relative;
+  padding-top: 50px;
+  font-family: "Inter", sans-serif;
+}
+
+#me {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.sorapng {
+  border-radius: 50%;
+}
+
+.whoami {
+  top: -5px;
+  position: relative;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.projects {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.projectslist {
+  line-height: 32px;
+  font-size: 16px;
+}
+
+.spacebetween {
+  padding-right: 12%;
+}
+
+#socialspace {
+  position: relative;
+  top: 10px;
+}
+
+.project-container {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.project-box {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.project-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0.6;
+  transition: filter 0.4s ease-in-out;
+}
+
+.project-box:hover img {
+  filter: brightness(120%);
+}
+
+#projtitle {
+  position: relative;
+  top: -20px;
+  color: #eee;
+  font-family: "Inter", sans-serif;
+}
+
+#projtitle:hover {
+  text-decoration: underline;
+}
+
+#desctitle {
+  position: relative;
+  top: -35px;
+  color: #6e6e6e;
+  font-family: "Roboto", sans-serif;
+}
+
+.ra1nanimation {
+  font-weight: bold;
+  text-shadow: 1px 2px 12px rgba(98, 207, 203, 0.2);
+  position: relative;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: border-box, text;
+  background-image: url(https://media.giphy.com/media/eYRGWfchREFUUlXT7P/giphy.gif),
+    linear-gradient(302deg, #24599d 0%, #fff 100%);
+  background-size: 10em, 15em;
+  animation: ra1n-anim 3s linear infinite;
+}
+
+@keyframes ra1n-anim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 7.5px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #333;
+  color: #a7c6da;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button-margin {
+  margin-left: 10px !important; 
+}
+
+#house {
+  color: #eee;
+}
