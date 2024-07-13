@@ -2,16 +2,23 @@
 <html>
 <head>
   <script src="https://kit.fontawesome.com/181142e325.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <audio id="myAudio" autoplay loop>
-      <source src="js/music/SwimmingPools.mp3" type="audio/mpeg">
+  <audio id="audio" autoplay loop>
+    <source src="js/music/SwimmingPools.mp3" type="audio/mpeg">
   </audio>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var audio = document.getElementById('audio');
+      audio.volume = 0.4; 
+      audio.play();
+    });
+  </script>
   <div id="app">
     <div>
       <h1 id="presentation">
@@ -21,7 +28,7 @@
       <img src="https://i.pinimg.com/originals/01/cc/c2/01ccc29725d7557aad2e19ca759b4b6e.gif" class="sorapng" alt="animation">
       <p id="standtext" class="whoami">
         16 y/o dev, my dream is to become a software engineer.<br />
-        In addition to coding, I edit videos and I create music.<br />
+        In addition to coding, I edit videos and create music.<br />
         <a href="mailto:p1oggia@proton.me" class="button spacebetween" id="socialspace"><i class="fa-solid fa-envelope"></i></a>
         <a href="https://www.github.com/gwbbs/" target="_blank" class="button button-margin spacebetween" id="socialspace"><i class="fa-brands fa-github"></i></a>
         <a href="https://www.instagram.com/gabrielepintoo/" target="_blank" class="button button-margin spacebetween" id="socialspace"><i class="fa-brands fa-instagram"></i></a>
@@ -31,7 +38,7 @@
         <div class="project-box">
           <img src="https://i.pinimg.com/originals/01/cc/c2/01ccc29725d7557aad2e19ca759b4b6e.gif" class="sorapng" alt="project">
         </div>
-        <p id="projtitle">Discord Bot</p>
+        <p id="projtitle">Holder Title</p>
         <p id="desctitle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       </div>
     </div>
